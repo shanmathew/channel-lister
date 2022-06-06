@@ -1,5 +1,21 @@
 //TODO: Add cache items(images and other resources)
 {
     "author": "shan",
-    "display": "fullscreen"
+    "name": "News lister",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./images/icons/icon512x512.png",
+            "size": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./images/icons/icon128x128.png",
+            "size": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+    ]
+    "start_url": "./index.html"
 }
